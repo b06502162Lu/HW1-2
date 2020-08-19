@@ -8,14 +8,14 @@ data:
     bucketing: False
     batch_size: 1
 src:
-  config: '/data/storage/harry/End-to-end-ASR-Pytorch/config/dlhlp_asr.yaml'
-  ckpt: '/data/storage/harry/test_env/dlhlp_ckpt/hw1_best_att_dev.pth'
+  config: '/work/b07u1234/b07701209/E2E_ASR_TWCC/config/dlhlp_asr_best3.yaml'
+  ckpt: '/work/b07u1234/b07701209/model_dir/ckpt/transform_time_only/best_att_dev.pth'
 
 decode:
   beam_size: 1
   min_len_ratio: 0.01
   max_len_ratio: 0.30
-  lm_path: '/data/storage/harry/test_env/dlhlp_ckpt/hw1_best_ppx.pth'
-  lm_config: 'config/dlhlp_lm.yaml'
+  lm_path: /work/b07u1234/b06502162/HW1-2/ckpt/dim_1024/best_ppx.pth
+  lm_config: '/work/b07u1234/b06502162/HW1-2/HW1-2/config/dlhlp_lm.yaml'
   lm_weight: 0.7
   ctc_weight: 0
