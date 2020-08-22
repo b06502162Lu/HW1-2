@@ -25,4 +25,4 @@ model:                                     # Model architecture
   module: 'GRU'                            # 'LSTM'/'GRU'
   dim: 512
   n_layers: 2
-  dropout: 0.2
+  dropout: 0.5
