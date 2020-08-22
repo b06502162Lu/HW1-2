@@ -4,14 +4,14 @@
 # $1 : Experiment name
 # $2 : Cuda id
 
-CONFIG="dlhlp_test"
+CONFIG="dlhlp_lm"
 DIR="/work/b07u1234/b06502162/HW1-2"
 
 echo "Start running testing process of E2E ASR"
 CUDA_VISIBLE_DEVICES=$2 python3 main.py --config config/${CONFIG}.yaml \
     --name $1 \
 	--test \
-    --njobs 8 \
+    --njobs 4 \
     --seed 0 \
     --ckpdir ${DIR}/ckpt/$1 \
 	--outdir ${DIR}/test_result/$1
