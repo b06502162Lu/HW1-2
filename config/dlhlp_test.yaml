@@ -16,7 +16,7 @@ decode:
   min_len_ratio: 0.01
   max_len_ratio: 0.30
 
-  lm_path: /work/b07u1234/b06502162/HW1-2/ckpt/dropout0.2_new/best_ppx.pth
+  lm_path: /work/b07u1234/b06502162/HW1-2/ckpt/dim_1024/best_ppx.pth
   lm_config: '/work/b07u1234/b06502162/HW1-2/HW1-2/config/dlhlp_lm.yaml'
   lm_weight: 0.7
   ctc_weight: 0
