@@ -4,7 +4,7 @@
 # $1 : Experiment name
 # $2 : Cuda id
 
-CONFIG="dlhlp_lm"
+CONFIG="dlhlp_test"
 DIR="/work/b07u1234/b06502162/HW1-2"
 
 echo "Start running testing process of E2E ASR"
